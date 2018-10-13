@@ -32,8 +32,9 @@ const FullUserInfo = ({
               <h2>{user.full_name}</h2>
               <div className="user-card__old">{user.age} years</div>
               <div className="full-user-info__city">
-                {!visibleEditCountry && <p onClick={toggleVisibleInput}>{user.city}</p>}
-                {visibleEditCountry && (
+                {!visibleEditCountry ? (
+                  <p onClick={toggleVisibleInput}>{user.city}</p>
+                ) : (
                   <div className="full-user-info__city-input">
                     <span>Country:</span>
                     <input
