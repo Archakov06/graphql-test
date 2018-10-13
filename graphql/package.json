@@ -1,0 +1,24 @@
+{
+  "name": "drimsim_test",
+  "version": "1.0.0",
+  "description": "Server for graphql test",
+  "main": "index.js",
+  "author": "Drim Sim",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ./src/app.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "graphql": "^0.11.3",
+    "graphql-tools": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-preset-env": "^1.6.0"
+  }
+}

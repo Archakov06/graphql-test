@@ -1,0 +1,56 @@
+.full-user-info {
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  animation: animate-block 0.8s ease-in-out;
+  .user-card {
+    box-shadow: none;
+  }
+  &__languages {
+    p {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+  }
+  &__city {
+    p {
+      cursor: pointer;
+    }
+    &-input {
+      padding: 15px;
+      span {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+      input {
+        background: #ffffff;
+        border: 1px solid #d5d5d5;
+        box-sizing: border-box;
+        box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+        outline: none;
+        padding: 8px 10px;
+      }
+      button {
+        background: #47b2ff;
+        border-radius: 4px;
+        color: #fff;
+        padding: 9px 15px;
+        font-size: 14px;
+        margin-left: 10px;
+        border: 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes animate-block {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

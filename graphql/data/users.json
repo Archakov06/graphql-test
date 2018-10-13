@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Joao",
+    "age": 22,
+    "city": "Moscow",
+    "full_name": "Joao Smith",
+    "knowledge": [
+      {
+        "language": "Javascript",
+        "frameworks": ["express.js", "Vue", "AngularJS"]
+      },
+      {
+        "language": "Java",
+        "frameworks": ["Play"]
+      },
+      {
+        "language": "Python",
+        "frameworks": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Maria",
+    "age": 20,
+    "city": "United States of America",
+    "full_name": "Maria Smith",
+    "knowledge": [
+      {
+        "language": "Javascript",
+        "frameworks": ["ReactJS", "AngularJS"]
+      },
+      {
+        "language": "Java",
+        "frameworks": ["Play", "Spring"]
+      },
+      {
+        "language": "Python",
+        "frameworks": ["Django"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ana",
+    "age": 20,
+    "city": "Moscow",
+    "full_name": "Ana Smith",
+    "knowledge": [
+      {
+        "language": "Javascript",
+        "frameworks": ["ReactJS", "express.js"]
+      },
+      {
+        "language": "Ruby",
+        "frameworks": ["Ruby on Rails"]
+      },
+      {
+        "language": "Python",
+        "frameworks": ["Django"]
+      }
+    ]
+  }
+]
